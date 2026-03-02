@@ -1,10 +1,10 @@
-# Crate Digger
+# The Flip
 
 Underground music blog. 60s-80s garage, bubblegum, glam, punk, powerpop.
 
 ## Deploy to GitHub Pages
 
-1. **Create a new repo on GitHub** (name it whatever, like `crate-digger` or `music-blog`)
+1. **Create a new repo on GitHub** (name it whatever, like `the-flip` or `music-blog`)
 
 2. **Initialize and push:**
 ```bash
