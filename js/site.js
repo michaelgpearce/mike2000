@@ -23,11 +23,5 @@
       </div>
     </header>`;
 
-  const footer = `
-    <footer>
-      <p>THE FLIP &mdash; weekly music you should've heard by now</p>
-    </footer>`;
-
   document.getElementById('site-header').innerHTML = header;
-  document.getElementById('site-footer').innerHTML = footer;
 })();
