@@ -267,8 +267,9 @@ main {
 .playlist-links {
     margin: 25px 0 35px;
     display: flex;
-    flex-direction: column;
-    gap: 8px;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .playlist-link {
