@@ -12,7 +12,7 @@
         <div class="header-tags">
           <span>Garage</span><span>Beat</span><span>Bubblegum</span><span>Glam</span><span>Punk</span><span>Powerpop</span>
         </div>
-        <p class="header-sub">Underground music from the 60s, 70s &amp; 80s &mdash; if it charted Top 10, I'm already skeptical.</p>
+        <p class="header-sub">Songs worth sharing &mdash; some you know, some you don't, all of them great.</p>
       </div>
     </header>`;
 
