@@ -24,4 +24,13 @@
     </header>`;
 
   document.getElementById('site-header').innerHTML = header;
+
+  const footer = `
+    <footer class="site-footer">
+      <p>The Flip &mdash; underground music from the 60s, 70s &amp; 80s.</p>
+      <p><a href="mailto:mike2000@theflip.top">mike2000@theflip.top</a></p>
+    </footer>`;
+
+  const footerEl = document.getElementById('site-footer');
+  if (footerEl) footerEl.innerHTML = footer;
 })();
