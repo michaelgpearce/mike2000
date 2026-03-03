@@ -5,6 +5,13 @@
   const isPost = window.location.pathname.includes('/posts/');
   const root = isPost ? '../' : '';
 
+  // Inject favicon
+  const link = document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/svg+xml';
+  link.href = root + 'favicon.svg';
+  document.head.appendChild(link);
+
   const header = `
     <header>
       <div class="header-inner">
