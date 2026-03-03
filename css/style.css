@@ -81,25 +81,36 @@ header h1 a {
     text-decoration: none;
 }
 
-header p {
-    font-size: 1.05em;
-    margin: 10px 0;
-    color: #1a1a1a;
-    font-weight: 600;
-    background: rgba(255,255,255,0.9);
-    padding: 8px 15px;
-    display: inline-block;
-    border: 2px solid #1a1a1a;
-    margin-right: 8px;
-    margin-bottom: 8px;
-    transform: rotate(-0.5deg);
+.header-tags {
+    margin: 14px 0 10px;
+    line-height: 2;
 }
 
-header p:last-of-type {
+.header-tags span {
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: 700;
+    background: rgba(255,255,255,0.92);
+    color: #1a1a1a;
+    padding: 5px 13px;
+    border: 2px solid #1a1a1a;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.header-sub {
+    font-size: 1em;
     font-weight: 700;
     font-style: italic;
     background: #c41e3a;
     color: #fff;
+    padding: 8px 15px;
+    display: inline-block;
+    border: 2px solid #1a1a1a;
+    margin-top: 6px;
     transform: rotate(1deg);
 }
 
@@ -148,13 +159,14 @@ main {
 .post-preview h2 a {
     color: #1a1a1a;
     text-decoration: none;
-    background: linear-gradient(to bottom, transparent 65%, #ffeb3b 65%);
+    background: linear-gradient(to bottom, transparent 60%, #ffeb3b 60%);
     padding: 0 4px;
 }
 
 .post-preview h2 a:hover {
-    background: linear-gradient(to bottom, transparent 65%, #ff6b35 65%);
+    background: #ff6b35;
     color: #fff;
+    padding: 2px 6px;
 }
 
 .post-preview time {
