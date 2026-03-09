@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}The Flip</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1><a href="/">THE FLIP</a></h1>
+      <div class="header-tags">
+        <span>Garage</span><span>Beat</span><span>Bubblegum</span><span>Glam</span><span>Punk</span><span>Powerpop</span>
+      </div>
+      <p class="header-sub">Underground music from the 60s, 70s &amp; 80s &mdash; better late than never.</p>
+    </div>
+  </header>
+
+  {{ content }}
+
+  <footer class="site-footer">
+    <p>The Flip &mdash; underground music from the 60s, 70s &amp; 80s.</p>
+    <p><a href="mailto:mike2000@theflip.top">mike2000@theflip.top</a></p>
+  </footer>
+</body>
+</html>
