@@ -4,7 +4,7 @@
     <title>The Flip</title>
     <link>https://theflip.top/</link>
     <atom:link href="https://theflip.top/feed.xml" rel="self" type="application/rss+xml"/>
-    <description>Underground music from the 60s, 70s & 80s — better late than never.</description>
+    <description><![CDATA[Underground music from the 60s, 70s & 80s — better late than never.]]></description>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate>
     <ttl>1440</ttl>
