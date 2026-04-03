@@ -1,0 +1,133 @@
+---
+layout: default
+title: Subscribe
+---
+
+<main>
+  <div class="subscribe-page">
+    <h1 class="subscribe-heading">Get New Posts by Email</h1>
+    <p class="subscribe-sub">New underground finds, straight to your inbox. No algorithm. No noise.</p>
+
+    <div class="subscribe-form-wrap">
+      <form action="https://api.follow.it/subscription-form/Ly9ZK3NYOW1TYStJS1VVaVVnRE1Ud2VhelpIZWVSanc5NGkydDZMYmxnbHZsY09ZUGlZWGZCS0NlbGNSR3RZc2diL3NLV3BBWGh3cGJGSXphdzlrMEF4aVlnZHUwMm5OSXZ2cStjd1pQZEVqbDhGbmlRK0dkYXRjWUFPSkI0V298Qmx4bmlmcHB3SnppZjZOVGZuV2tNUnVTSEtMajBxZ1hrVGhHdDNhTnVJWT0=/8" method="post">
+        <input type="email" name="email" required placeholder="your@email.com" class="subscribe-input">
+        <button type="submit" class="subscribe-button">▶ Subscribe</button>
+      </form>
+      <p class="subscribe-powered">
+        Powered by <a href="https://follow.it" target="_blank">follow.it</a>
+      </p>
+    </div>
+  </div>
+</main>
+
+<style>
+.subscribe-page {
+  padding: 20px 0 80px;
+}
+
+.subscribe-heading {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2.8em;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  line-height: 1;
+  margin-bottom: 14px;
+  background: linear-gradient(to bottom, transparent 65%, #ffeb3b 65%);
+  display: inline;
+}
+
+.subscribe-sub {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 18px;
+  margin-bottom: 40px;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+}
+
+.subscribe-form-wrap {
+  background: #fff;
+  border: 5px solid #1a1a1a;
+  box-shadow: 10px 10px 0 #ff6b35;
+  padding: 40px 35px;
+  max-width: 480px;
+}
+
+.subscribe-form-wrap form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.subscribe-input {
+  width: 100%;
+  height: 48px;
+  border: 3px solid #1a1a1a;
+  border-radius: 0;
+  background: #fef9e7;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.9em;
+  color: #1a1a1a;
+  padding: 0 16px;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.subscribe-input::placeholder {
+  color: #aaa;
+}
+
+.subscribe-input:focus {
+  border-color: #ff6b35;
+  background: #fff;
+}
+
+.subscribe-button {
+  width: 100%;
+  height: 48px;
+  border: 3px solid #1a1a1a;
+  border-radius: 0;
+  background: #ffeb3b;
+  color: #1a1a1a;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.9em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 rgba(0,0,0,0.15);
+  transition: transform 0.1s, box-shadow 0.1s, background 0.15s;
+}
+
+.subscribe-button:hover {
+  background: #ff6b35;
+  color: #fff;
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 rgba(0,0,0,0.15);
+}
+
+.subscribe-powered {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75em;
+  color: #999;
+  margin-top: 14px;
+  text-align: center;
+}
+
+.subscribe-powered a {
+  color: #999;
+  border-bottom: 1px solid #ccc;
+  font-weight: 400;
+}
+
+.subscribe-powered a:hover {
+  color: #1a1a1a;
+  background: none;
+  border-bottom-color: #ff6b35;
+  padding: 0;
+  margin: 0;
+}
+</style>
