@@ -63,4 +63,46 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://theflip.top/posts/009-the-whole-sire-thing.html</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://theflip.top/posts/010-comme-si-comme-ca.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://theflip.top/posts/011-no-gigs-all-glory.html</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://theflip.top/posts/012-still-1966.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://theflip.top/posts/013-all-flash-no-drag.html</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://theflip.top/posts/014-glam-without-a-map.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
