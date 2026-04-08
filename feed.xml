@@ -6,8 +6,16 @@
     <atom:link href="https://theflip.top/feed.xml" rel="self" type="application/rss+xml"/>
     <description><![CDATA[Underground music from the 60s, 70s & 80s — better late than never.]]></description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
     <ttl>1440</ttl>
+
+    <item>
+      <title><![CDATA[Parts Unknown]]></title>
+      <link>https://theflip.top/posts/016-parts-unknown.html</link>
+      <guid isPermaLink="true">https://theflip.top/posts/016-parts-unknown.html</guid>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Chicago. Los Angeles. Huntington Beach. The Netherlands. Italy. New York. Northern Ireland three times. Brisbane, Australia. Power pop has always had opinions about where it should come from — the right American city, the right English coast, the right connection to a label that knew what the Raspberries were doing. These ten records arrived from the wrong coordinates, made the record anyway, and were better for it.]]></description>
+    </item>
 
     <item>
       <title><![CDATA[No Fixed Address]]></title>
